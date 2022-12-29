@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tugas P13 Ripaldiansyah</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="div-over">
+        <div class="container">
+            <h1> Volume Geometri</h1>
+            <table class="table-judul">
+
+                <tr>
+                    <td>Nama</td>
+                    <td>:</td>
+                    <td>Ripaldiansyah</td>
+                </tr>
+
+                <tr>
+                    <td>Kelas</td>
+                    <td>:</td>
+                    <td>S5A</td>
+                </tr>
+                <tr>
+                    <td>NPM</td>
+                    <td>:</td>
+                    <td>202043502261</td>
+                </tr>
+            </table>
+
+            <a href="#judul-hitung">
+                <h2>Mulai</h2>
+            </a>
+
+        </div>
+
+
+        <p class="judul-hitung" id="judul-hitung">Pilih Volumen Bangun Ruang yang ingin dihitung</p>
+        <table class="table-bangun-ruang">
+            <tr>
+                <td><img id="balok" src="ICON/Balok.png" alt="Balok"></td>
+                <td><img id="bola" src="ICON/Bola.png" alt="Bola"></td>
+                <td><img src="ICON/Kerucut.png" alt="Kerucut"></td>
+                <td><img src="ICON/Prisma-Segitiga.png" alt="Prisma Segitiga"></td>
+                <td><img src="ICON/Tabung.png" alt="Tabung"></td>
+            </tr>
+
+            <tr class="judul-bangun-ruang">
+                <td>Balok</td>
+                <td>Bola</td>
+                <td>Kerucut</td>
+                <td>Prisma Segitiga</td>
+                <td>Tabung</td>
+            </tr>
+        </table>
+        <br>
+        <div class="form-hitung">
+        <form method="get" id="form-geo">
+            <label for="hitung">Bangun Ruang yang ingin dihitung :  </label>
+            <select id="hitung-geometri">
+                <option value="Balok">Balok</option>
+                <option value="Bola">Bola</option>
+                <option value="Kerucut">Kerucut</option>
+                <option value="Prisma Segitiga">Prisma Segitiga</option>
+                <option value="Tabung">Tabung</option>
+            </select>
+            <br>
+            <input type="button" onclick="change()" value="Submit">
+            <p id="test"></p>
+        </form>
+    </div>
+    </div>
+    <script src="Script.js"></script>
+
+</body>
+
+</html>

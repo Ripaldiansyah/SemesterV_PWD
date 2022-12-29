@@ -1,0 +1,50 @@
+.set-images{
+    width: 125px;
+    height: 100px;
+    position: fixed;
+    left: 20%;
+}
+
+.set-judul{
+    text-align: center;
+}
+
+.set-alamat{
+    text-align: center;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.garis{
+    background-color: blue;
+    height: 4px;
+    margin-top: 3%;
+}
+
+.table-style{
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+#judul-table{
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-control{
+    width: 180px;
+    font-weight:bold;
+}
+
+#date{
+    width: 160px;
+}
+
+#simpan-button{
+    align-items: center;
+}
+
+#button-control{
+   padding-left: 240px; 
+}

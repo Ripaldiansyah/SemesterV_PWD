@@ -1,0 +1,109 @@
+img{
+    width: 200px;
+    height: 120px;
+}
+
+body{
+    background: #1FA2FF;
+    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); 
+    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+    
+    
+}
+
+h2{
+    margin-top: 15%;
+    margin-left:35%;
+    width: 30%;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 44%;
+    border-style: solid;
+    border-color: black;
+}
+
+h2:hover{
+    border-color: white;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.table-judul{
+    margin-left: 15%;
+    margin-top: 2%;
+    width: 300px;
+    font-size: 20px;
+    position:relative;
+   
+}
+
+h1{
+    font-size: 26px;
+    padding-left: 50px;
+    margin-top: -50px;
+    
+    position:static;
+}
+
+.container{
+    border-style: solid;
+    margin-top: 10%;
+    margin-left: 40%;
+    padding-top:5% ;
+    height: 200px;
+    position:static;
+    width: 300px;
+    border-radius: 20%;
+}
+
+.judul{
+    text-align: center;
+    font-weight: bold;
+}
+
+.judul-hitung{
+    font-size: 60px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 30%;
+    position:static;
+}
+
+img{
+    width: 200px;
+    height: 150px;
+    position:static;
+
+}
+
+.table-bangun-ruang{
+    width: 1400px;
+    padding-left: 210px;
+
+    
+}
+
+
+.judul-bangun-ruang{
+    text-align:center;
+    font-weight: bold;
+    font-size: 20px;
+}
+  
+.form-hitung{
+   margin-bottom: 400px;
+   margin-left: 540px;
+   margin-right: 510px;
+   padding-left: 5px;
+   font-size: 20px;
+   font-weight: bold;
+   border-style: solid;
+   
+}
+
+input{
+   margin-left: 45%; 
+}

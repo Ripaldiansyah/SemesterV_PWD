@@ -1,0 +1,101 @@
+body{
+    background: #1FA2FF;
+    background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); 
+    background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);   
+    
+}
+
+#Balok{
+    margin-top: 3%;
+    border-style: solid;
+    margin-right: 1000px;
+    height: 180px;
+    padding-top: 20px;
+    border-width: 2px;
+}
+
+.container{
+    border-style: solid;
+    width: 300px;
+    margin-left: 32%;
+    border-width: 1px;
+    padding-left: 4px;
+}
+
+img{
+    width: 140px;
+    height: 100px;
+    position:absolute ;
+}
+
+.rumus{
+    font-weight: bold;
+}
+
+.perhitungan{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.hitung-control{
+    width: 120px;
+    height: 47px ;
+    padding-top: 10px;
+}
+
+.form-control{
+    width: 60px;
+    height: 30px;
+}
+
+h2{
+    margin-left: 40%;
+    font-size: 50px;
+    margin-top: -100px;
+}
+
+#tabung{
+    margin-top: 40%;
+    border-style: solid;
+    margin-right: 1000px;
+    height: 180px;
+    padding-top: 20px;
+    border-width: 2px;
+
+}
+
+
+#Kerucut{
+    margin-top: 50%;
+    border-style: solid;
+    margin-right: 1000px;
+    height: 180px;
+    padding-top: 20px;
+    border-width: 2px;
+
+}
+
+#Prisma-Segitiga{
+    margin-top: 50%;
+    border-style: solid;
+    margin-right: 1000px;
+    height: 180px;
+    padding-top: 20px;
+    border-width: 2px;
+}
+
+#bola{
+    margin-top: 45%;
+    border-style: solid;
+    margin-right: 1000px;
+    height: 180px;
+    padding-top: 20px;
+    border-width: 2px;
+
+}
+
+h2.bola{
+    margin-left: 40%;
+    font-size: 50px;
+    margin-bottom:570px;
+}

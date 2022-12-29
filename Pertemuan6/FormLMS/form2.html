@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <meta name="HandheldFriendly" content="true">
+        <title>Ripaldiansyah Tugas LMS P6 FORM</title>
+
+        <style>
+            h1{
+                text-align: center;
+                border-top-style:solid;
+                border-color:lightsteelblue;
+                font-size: 40px;
+            }
+            
+            .gambar{
+                width: 100px;
+                height: 85px;
+                position: absolute;
+                top: 5%;
+                left: 25%;
+            }
+            .border-top{
+                border-top-style: solid;
+                border-width: 1px;
+                width: 650px;
+                margin-left: 25%;
+            }
+            .border-bot{
+                border-bottom-style: solid;
+                border-width: 6px;
+                border-color:lightsteelblue ;                
+            }
+            .form-control {
+            font-weight:bold;
+            width:90%;
+            }
+            input[type="text"]{
+                width: 250px;
+            }
+           
+        </style>
+    </head>
+
+    <body>
+        <img class="gambar" src="Logo.png" alt="Logo Unindra">
+        <h1>PERPUSTAKAAN
+            <br>Universitas Indraprasta
+            <br>PGRI
+        </h1>
+        <div class="border-bot">
+            <div class="border-top">
+            <form >
+                <table class="form-control"">
+                        <h2 align="center">Formulir Registrasi Anggota</h2>
+                        <b>Isikan Data Diri Anda :</b>
+                    <tr>
+                        <label for="Nama">
+                            <td>Nama</td>
+                            <td>:</td>
+                            <td><input type="text"></td>
+                        </label>
+                    </tr>
+                    <tr>
+                        <label for="Jenis Kelamin">
+                            <td>Jenis Kelamin</td>
+                            <td>:</td>
+                            <td>
+                                <input type="radio" name="Laki-laki" value="laki-laki">Laki-Laki
+                                <input type="radio" name="Perempuan" value="Perempuan">Perempuan
+                            </td>
+                        </label>
+                    </tr>
+                    <tr>
+                        <label for="Tempa, Tgl Lahir"></label>
+                        <td>Tempat, Tgl <br>Lahir</td>
+                        <td>:</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <label for="NPM">
+                            <td>NPM</td>
+                            <td>:</td>
+                            <td><input type="text"></td>
+                        </label>
+                    </tr>
+                    <tr>
+                        <label for="Fakultas">
+                            <td>Fakultas</td>
+                            <td>:</td>
+                            <td>
+                                <input type="radio" name="Fakultas" value="FTMIPA">FTMIPA
+                                <input type="radio" name="Fakultas" value="FIPPS">FIPPS
+                                <input type="radio" name="Fakultas" value="FBS">FBS
+                                <input type="radio" name="Fakultas" value="PASCA SARJANA">PASCA SARJANA
+                            </td>
+                        </label>
+                    </tr>
+                    <tr>
+                        <label for="Program Studi">
+                            <td>Program Studi</td>
+                            <td>:</td>
+                            <td>
+                                <select name="Program Strudi" id="Program Strudi">
+                                    <option value="Informatika">Informatika</option>
+                                    <option value="Teknik Industri">Teknik Industri</option>
+                                    <option value="Pen. Biologi">Pen. Biologi</option>
+                                    <option value="Pend. Matematika">Pend. Matematika</option>
+                                    <option value="Pend. Fisika">Pend. Fisika</option>
+                                    <option value="Pend. Ekonomi">Pend. Ekonomi</option>
+                                    <option value="Pend. Sejarah">Pend. Sejarah</option>
+                                    <option value="Pend. Bhs Indonesia">Pend. Bhs Indonesia</option>
+                                    <option value="Pend. Bhs Inggris">Pend. Bhs Inggris</option>
+                                </select>
+                            </td>
+                        </label>
+                    </tr>
+                    <tr>
+                        <label for="Kategori Buky">
+                            
+                            <td rowspan="6" style="vertical-align:text-top;">Kategori Buku</td>
+                            <td rowspan="6" style="vertical-align:text-top;" >:</td>
+                                <td><input type="checkbox" value="Pendidikan">Pendidikan</td>
+                                <tr><td><input type="checkbox" value="Ilmu Sosial">Ilmu Sosial</td></tr>
+                                <tr><td><input type="checkbox" value="Ilmu Alam">Ilmu Alam</td></tr>
+                                <tr><td><input type="checkbox" value="Agama">Agama</td></tr>
+                                <tr><td><input type="checkbox" value="Budaya">Budaya</td></tr>
+                                <tr><td><input type="checkbox" value="Matematika & Sains">Matematika & Sains</td></tr>  
+                        </label>
+                    </tr>
+                    <tr>
+                        <th colspan="3">
+                            <input type="submit" value="DAFTAR" >
+                            <input type="reset" value="Muat Ulang">
+                        </th>
+                    </tr>
+                </table>
+            </form>
+           <br>
+            </div>
+        </div>
+    </body>
+</html>

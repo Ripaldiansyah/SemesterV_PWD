@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tugas P14</title>
+</head>
+<body>
+    <form id="Submit">
+        Masukan Angka : <input type="number" placeholder="masukan angka" id="angka">
+        <input type="submit">
+        <br>
+    </form>
+
+    <script>
+        const Angka =document.getElementById("angka");
+        function onSubmit(){
+            for (let i=1; i<=parseInt(Angka.value);i++){
+                if(i % 15 === 0){
+                    document.writeln("WEB" + '<br>');
+                }else
+                if(i % 5 === 0){
+                    document.writeln("UNINDRA" + '<br>');
+                }else
+                if(i % 3 === 0){
+                    document.writeln("TI" + '<br>');
+                }else
+                document.writeln(i+ '<br>');
+            }
+        }
+        document.getElementById("Submit").onsubmit=onSubmit
+    </script>
+</body>
+
+</html>

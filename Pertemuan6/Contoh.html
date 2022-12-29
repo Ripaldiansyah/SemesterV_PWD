@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Biodata</title>
+
+    <style>
+      h1 {
+        text-align: center;
+        border-style: solid;
+        margin: 2px;
+        border-color: green;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .table {
+        border-style: solid;
+        margin: 2px;
+        border-color: green;
+        padding: 0px;
+      }
+
+      .container {
+        border-color: green;
+        border-style: solid;
+        margin-right: 360px;
+        margin-left: 360px;
+      }
+
+      .head-container {
+        padding-top: 90px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="head-container">
+      <div class="container">
+        <header>
+          <h1>Form Input Biodata</h1>
+        </header>
+        <div class="table">
+          <form action="">
+            <table align="center">
+              <!-- Form Nama -->
+              <tr>
+                <td><label for="nama">Nama Lengkap</label></td>
+                <td>:</td>
+                <td><input type="text" /></td>
+              </tr>
+
+              <!-- Form Tempat, Tanggal Lahir -->
+              <tr>
+                <td><label for="ttl">Tempat, Tanggal Lahir</label></td>
+                <td>:</td>
+                <td>
+                  <input type="text" /> ,
+                  <input type="date" name="" id="" />
+                </td>
+              </tr>
+
+              <!-- Form Alamat -->
+              <tr>
+                <td><label for="alamat">Alamat</label></td>
+                <td>:</td>
+                <td>
+                  <textarea name="" id="" cols="43" rows="3"></textarea>
+                </td>
+              </tr>
+
+              <!-- Form No Telp -->
+              <tr>
+                <td><label for="notlp">No.Telp/HP</label></td>
+                <td>:</td>
+                <td><input type="number" name="" id="" /></td>
+              </tr>
+
+              <!-- Form Jenis Kelamin -->
+              <tr>
+                <td><label for="jkl">Jenis Kelamin</label></td>
+                <td>:</td>
+                <td>
+                  <input type="radio" name="" id="" />Laki-Laki
+                  <input type="radio" name="" id="" />Perempuan
+                </td>
+              </tr>
+
+              <!-- Form Agama -->
+              <tr>
+                <td><label for="agama">Agama</label></td>
+                <td>:</td>
+                <td>
+                  <select name="agama" id="agama">
+                    <option value="">-- Pilih Agama --</option>
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen Protestan">Kristen Protestan</option>
+                    <option value="Katolik">Katolik</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Buddha">Buddha</option>
+                    <option value="Konghucu">Konghucu</option>
+                  </select>
+                </td>
+              </tr>
+
+              <!-- Form Hobi -->
+              <tr>
+                <td><label for="hobi">Hobi</label></td>
+                <td>:</td>
+                <td>
+                  <input type="checkbox" name="Baca Buku" id="" />Baca Buku
+                  <input type="checkbox" name="Olah Raga" id="" />Olah Raga
+                  <input type="checkbox" name="Main Game" id="" />Main Game
+                  <input type="checkbox" name="Koding" id="" />Koding
+                </td>
+              </tr>
+
+              <!-- Submit and Clear Button -->
+              <tr>
+                <td><button>Submit</button> <button>Clear !</button></td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

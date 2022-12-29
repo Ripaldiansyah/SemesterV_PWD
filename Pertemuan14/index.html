@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tugas P14</title>
+</head>
+<body>
+    <input type="number" id="angka">
+    <button type="submit" onclick="onSubmit()">Submit</button>
+    <br>
+
+    <script>
+        const input = document.getElementById('angka');
+
+        function onSubmit() {
+            for (let i = 0; i <= parseInt(input.value); i++) {
+                if (i % 3 === 0 && i % 5 === 0) {
+                    document.write("WEB" + '<br>');
+                } else if (i % 5 === 0) {
+                    document.write("Unindra" + '<br>');
+                } else if (i % 3 === 0) {
+                    document.write("TI" + '<br>');
+                } else {
+                    document.write(i  + '<br>');
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
