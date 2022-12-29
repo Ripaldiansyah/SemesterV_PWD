@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <Title>Ripal</Title>
+</head>
+
+<body>
+    <script>
+        function validnama(inputnama) {
+                panjangnama = inputnama.length
+                if (panjangnama == 0) {
+                    alert("Anda belum memasukkan nama")
+                    document.formdata.nama.focus()
+                }
+            }
+
+            function validpos(pos) {
+                panjang = pos.length
+                digits = "0123456789"
+                if (panjang != 5) {
+                    alert("Panjang kode pos-nya salah tuh.")
+                    document.formdata.pos.focus()
+                }
+
+                for (i = 0; i < 5; i++) {
+                    if (digits.indexOf(pos.charAt(i)) < 0) {
+                        alert("Kok kode posnya bukan angka ?")
+                        document.formdata.pos.focus()
+                        break
+                    }
+                }
+
+            }
+    </script>
+
+<FORM NAME="formdata">
+    <h4>Form data</h4>
+    Masukkan nama anda :<br>
+    <INPUT TYPE="text" NAME="nama" onblur="validnama(nama.value)"><br>
+    Masukkan kode pos (99999) :<br>
+    <INPUT TYPE="text" NAME="pos" SIZE=10>
+    <P>
+        <INPUT TYPE="button" VALUE="Submit" onClick="validpos(pos.value)">
+</body>
+
+</html>

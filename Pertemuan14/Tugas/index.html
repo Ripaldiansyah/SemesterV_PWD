@@ -14,13 +14,13 @@
         const Angka =document.getElementById("angka");
         function onSubmit(){
             for (let i=1; i<=parseInt(Angka.value);i++){
-                if(i % 15 === 0){
+                if(i % 15 == 0){
                     document.writeln("WEB" + '<br>');
                 }else
-                if(i % 5 === 0){
+                if(i % 5 == 0){
                     document.writeln("UNINDRA" + '<br>');
                 }else
-                if(i % 3 === 0){
+                if(i % 3 == 0){
                     document.writeln("TI" + '<br>');
                 }else
                 document.writeln(i+ '<br>');
